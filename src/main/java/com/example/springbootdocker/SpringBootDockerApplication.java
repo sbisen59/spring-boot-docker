@@ -11,7 +11,7 @@ public class SpringBootDockerApplication {
 
 	@RequestMapping("/")
 	public String home() {
-		return "Hello Docker World";
+		return "Hello from FTP deployment World";
 	}
 
 	public static void main(String[] args) {
